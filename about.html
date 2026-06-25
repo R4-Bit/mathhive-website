@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — MathHive Tutoring</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:system-ui,-apple-system,sans-serif;background:#f5f4f0;color:#2C2C2A;}
+nav{background:#2C2C2A;padding:.85rem 1.5rem;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.cube-wrap{width:40px;height:40px;perspective:100px;flex-shrink:0;}
+.cube{width:40px;height:40px;position:relative;transform-style:preserve-3d;transform:rotateX(-20deg) rotateY(30deg);}
+.face{position:absolute;width:28px;height:28px;border:2px solid #2C2C2A;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;}
+.face.front{background:#EF9F27;color:#2C2C2A;transform:translateZ(14px);top:6px;left:6px;}
+.face.top{background:#FAC775;transform:rotateX(90deg) translateZ(14px);top:-8px;left:6px;}
+.face.right{background:#BA7517;color:#FAEEDA;transform:rotateY(90deg) translateZ(14px);top:6px;left:20px;}
+.nav-title{font-size:16px;font-weight:600;color:#FAC775;}
+.nav-links{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap;}
+.nav-links a{color:#aaa;text-decoration:none;font-size:13px;padding:.4rem .8rem;border-radius:99px;border:1.5px solid transparent;}
+.nav-links a:hover{color:#FAC775;border-color:#444;}
+.nav-links a.active{color:#2C2C2A;background:#EF9F27;border-color:#EF9F27;font-weight:600;}
+.hero{background:#2C2C2A;padding:3rem 1.5rem;text-align:center;}
+.hero h1{font-size:30px;font-weight:700;color:#FAC775;margin-bottom:.5rem;}
+.hero p{font-size:14px;color:#aaa;max-width:480px;margin:0 auto;}
+.wrap{max-width:700px;margin:0 auto;padding:1.75rem 1.5rem;}
+.card{background:#fff;border-radius:14px;border:.5px solid rgba(0,0,0,.1);padding:1.4rem;margin-bottom:1.1rem;}
+.card h2{font-size:17px;font-weight:700;color:#2C2C2A;margin-bottom:.75rem;}
+.card p{font-size:14px;color:#555;line-height:1.75;}
+.tutor-row{display:flex;align-items:center;gap:16px;}
+.avatar{width:64px;height:64px;border-radius:50%;background:#EF9F27;color:#2C2C2A;font-size:22px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.tutor-name{font-size:17px;font-weight:700;color:#2C2C2A;}
+.tutor-title{font-size:13px;color:#888780;margin-top:3px;}
+.rate-badge{display:inline-block;background:#FAEEDA;color:#633806;font-size:13px;font-weight:700;padding:4px 12px;border-radius:99px;margin-top:8px;}
+.values-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:.75rem;}
+.val{background:#FAEEDA;border-radius:10px;padding:.85rem;text-align:center;}
+.val-icon{font-size:22px;margin-bottom:5px;}
+.val-title{font-size:12px;font-weight:700;color:#633806;}
+.val-desc{font-size:11px;color:#BA7517;margin-top:3px;line-height:1.4;}
+.area-grid{display:flex;flex-wrap:wrap;gap:8px;margin-top:.75rem;}
+.area-pill{background:#f0efe9;border-radius:99px;font-size:13px;color:#555;padding:4px 12px;}
+.cta{background:#EF9F27;border-radius:14px;padding:1.4rem;text-align:center;margin-bottom:1.1rem;}
+.cta p{font-size:15px;font-weight:700;color:#2C2C2A;margin-bottom:.75rem;}
+.cta a{background:#2C2C2A;color:#FAC775;text-decoration:none;padding:.65rem 1.5rem;border-radius:8px;font-size:14px;font-weight:600;}
+footer{background:#2C2C2A;color:#888780;text-align:center;padding:1.1rem;font-size:13px;}
+footer a{color:#EF9F27;text-decoration:none;}
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="cube-wrap"><div class="cube"><div class="face front">MH</div><div class="face top"></div><div class="face right"></div></div></div>
+    <span class="nav-title">MathHive Tutoring</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Quiz</a>
+    <a href="about.html" class="active">About Us</a>
+    <a href="tutorials.html">Tutorials</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>About MathHive Tutoring</h1>
+  <p>Online math tutoring that makes students love math — and excel 2–3 grade levels above their peers.</p>
+</div>
+
+<div class="wrap">
+
+  <div class="card">
+    <div class="tutor-row">
+      <div class="avatar">RR</div>
+      <div>
+        <div class="tutor-name">Roland Rosas, M.Ed.</div>
+        <div class="tutor-title">Founder &amp; Lead Math Tutor</div>
+        <span class="rate-badge">$25 / hour &nbsp;·&nbsp; Online sessions</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Why I started MathHive</h2>
+    <p>I started MathHive Tutoring because I believe math should be fun, exciting, and something every student can be proud of. My mission is to push students 2–3 grade levels above where they currently are — fast-tracking them toward higher learning and a lifetime of confidence. MathHive is a place where students discover their strengths, find real-world applications for math, and learn to show off what they know.</p>
+  </div>
+
+  <div class="card">
+    <h2>What we do</h2>
+    <div class="values-grid">
+      <div class="val"><div class="val-icon">🚀</div><div class="val-title">Fast-track learning</div><div class="val-desc">2–3 grade levels above in record time</div></div>
+      <div class="val"><div class="val-icon">🎯</div><div class="val-title">Find your strengths</div><div class="val-desc">We discover what clicks for each student</div></div>
+      <div class="val"><div class="val-icon">💡</div><div class="val-title">Real applications</div><div class="val-desc">Math that connects to everyday life</div></div>
+      <div class="val"><div class="val-icon">🏆</div><div class="val-title">Show off skills</div><div class="val-desc">Build pride and enthusiasm for math</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Areas we serve</h2>
+    <p style="font-size:13px;color:#888780;margin-bottom:.5rem;">Online sessions — available to students across Southern California and beyond.</p>
+    <div class="area-grid">
+      <span class="area-pill">Pasadena</span>
+      <span class="area-pill">Altadena</span>
+      <span class="area-pill">San Gabriel Valley</span>
+      <span class="area-pill">Montebello</span>
+      <span class="area-pill">Whittier</span>
+      <span class="area-pill">Monterey Park</span>
+      <span class="area-pill">Arcadia</span>
+      <span class="area-pill">Temple City</span>
+    </div>
+  </div>
+
+  <div class="cta">
+    <p>Ready to join the hive? Let's get started today.</p>
+    <a href="contact.html">Book a session →</a>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 MathHive Tutoring &nbsp;|&nbsp; <a href="contact.html">Contact</a> &nbsp;|&nbsp; <a href="index.html">Take the quiz</a>
+</footer>
+</body>
+</html>
